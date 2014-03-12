@@ -7,6 +7,13 @@ An implementation of the O((n + k) log n) Bentley–Ottmann sweep line algorithm
 
 Despite intending it for the browser, it probably still needs some fettling to make sure the CommonJS-esque code I've written works in your target browser.
 
+Browser usage
+==============
+
+`browserify --standalone sweepline -d -e index.js -o sweepline.js`
+
+You can then require `sweepline.js` via a standard script tag. It will be available in the global namespace under `sweepline`.
+
 Tests
 ======
 $ npm test
