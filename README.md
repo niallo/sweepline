@@ -14,6 +14,8 @@ Browser usage
 
 You can then require `sweepline.js` via a standard script tag. It will be available in the global namespace under `sweepline`.
 
+You can find a pre-generated copy of this as `sweepline-bundle.js` in the repo.
+
 Tests
 ======
 $ npm test
